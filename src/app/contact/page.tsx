@@ -1,6 +1,6 @@
 import Link from 'next/link';
 
-export default function Home() {
+export default function Contact() {
   return (
     <div className="bg-black grid grid-rows-[1px_15rem_1px] items-center justify-items-center min-h-screen p-8 sm:p-20 font-[family-name:var(--font-geist-sans)] scroll-smooth min-h-screen m-auto">
       
@@ -8,7 +8,7 @@ export default function Home() {
 
           <div className="flex space-x-8 text-xl text-white ">
 
-            <a href="Home" className="transition-colors duration-300 hover:text-blue-400">Home</a>
+            <Link href="/" className="transition-colors duration-300 hover:text-blue-400">Home</Link>
             <Link href="/projetos" className="transition-colors duration-300 hover:text-blue-400">Projetos</Link>
             <Link href="/skills" className="transition-colors duration-300 hover:text-blue-400">Skills</Link>
             <a href="Contact" className="transition-colors duration-300 hover:text-blue-400">Contatos</a>

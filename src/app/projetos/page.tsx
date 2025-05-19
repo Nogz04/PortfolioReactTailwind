@@ -1,6 +1,6 @@
 import Link from 'next/link';
 
-export default function Home() {
+export default function Projetos() {
   return (
     <div className="bg-black grid grid-rows-[1px_15rem_1px] items-center justify-items-center min-h-screen p-8 sm:p-20 font-[family-name:var(--font-geist-sans)] scroll-smooth min-h-screen m-auto">
       
@@ -8,7 +8,7 @@ export default function Home() {
 
           <div className="flex space-x-8 text-xl text-white ">
 
-            <a href="Home" className="transition-colors duration-300 hover:text-blue-400">Home</a>
+            <Link href="/" className="transition-colors duration-300 hover:text-blue-400">Home</Link>
             <Link href="/projetos" className="transition-colors duration-300 hover:text-blue-400">Projetos</Link>
             <Link href="/skills" className="transition-colors duration-300 hover:text-blue-400">Skills</Link>
             <a href="Contact" className="transition-colors duration-300 hover:text-blue-400">Contatos</a>
@@ -18,34 +18,11 @@ export default function Home() {
 
 
       
-        <h1 className="text-6xl font-bold font-sans bg-gradient-to-r from-white via-gray-400 to-indigo-200 inline-block text-transparent bg-clip-text">Matheus Nogueira</h1>
+        <h1 className="text-6xl font-bold font-sans bg-gradient-to-r from-white via-gray-400 to-indigo-200 inline-block text-transparent bg-clip-text">Projetos</h1>
 
-        <div className="mt-40">
+        
 
-          <img src="https://scontent.fria4-2.fna.fbcdn.net/v/t39.30808-6/476923356_2695607933944952_1997747113682510285_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=a5f93a&_nc_ohc=jDgpOFsWRNMQ7kNvwFuKVOf&_nc_oc=Adnv65qmddMGW8ODY-twxQ67cUcbLDmfhhEr_82QV3eP2Cuba2mXxnVjrFDOP0qOmco&_nc_zt=23&_nc_ht=scontent.fria4-2.fna&_nc_gid=gakcaHVV0DCosx5NdZo0kg&oh=00_AfLiqmDT5UD_0dKkjGIO6miC2-UHbNMaPfkItPojTxoKBA&oe=68302BA0" className="w-60 h-60 rounded-full border-amber-50 border-3 drop-shadow-[0_0_15px_rgba(255,255,255,0.8)]"></img>
-
-
-        </div>
-
-
-      {/* Esse é um comentário JSX dentro do retorno 
-        <div className="w-2xl mr-auto -mt-30">
-
-            <h3 id="sobre" className="text-amber-50 text-2xl font-bold font-sans mt-16 -ml-5.5 p-5">Sobre mim</h3>
-            <p className="text-amber-50">Aenean porttitor nisl laoreet quam volutpat gravida. Pellentesque rhoncus, turpis at euismod interdum, arcu urna hendrerit neque, sit amet iaculis libero felis quis ipsum. Nullam eleifend ex et nibh pharetra pellentesque. Quisque fringilla nibh quis sapien tincidunt elementum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Donec ullamcorper at augue eu fermentum. Nam auctor, velit vitae vehicula consequat, odio ipsum porta sapien, non sodales diam erat id magna.</p>
-
-        </div>
-      */}
-
-        <div className="w-2xl mt-60">
-
-            <h2 id="projetos" className="bg-gradient-to-r from-purple-200 to-purple-950 text-4xl font-bold font-sans mt-16 -ml-5.5 p-5 text-center text-transparent bg-clip-text">Projetos</h2>
-            
-
-
-        </div>
-
-        <div className="w-full flex flex-wrap justify-center gap-15 mt-5">
+        <div className="w-full flex flex-wrap justify-center gap-15 mt-60">
 
         <div>
           <a href="https://www.google.com/?hl=pt-BR">
